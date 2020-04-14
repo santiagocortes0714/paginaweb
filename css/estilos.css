@@ -1,0 +1,155 @@
+html, body{
+    height: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.contenido-seccion{
+    padding: 5rem 0;
+}
+
+#empresa{
+    background: url('../img/fondo3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#guias{
+    background: url('../img/fondo4.jpg');
+    background-size: cover;
+}
+
+#guias h2{
+    color:white
+}
+
+#guias .card{
+    background: rgba(0,0,0,.8);
+    color: white;
+    padding: 1.875rem;    
+}
+
+#acerca-de{
+    background: url('../img/fondo1.jpg') center center no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#texto-acerca-de{
+    background: rgba(0,0,0,.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+#programas{
+    background: rgba(0,0,0,.8);
+    color: white;
+    padding: 1.875rem;    
+}
+
+#elementos{
+    background: url('../img/fondo2.jpg');
+    background-position: center;
+}
+
+#texto-elementos{
+    background: rgba(0,0,0,.8);
+    color: white;
+    font-size: 40px;
+}
+
+#contacto{
+    background: url('../img/fondo5.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#mapa{
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;  
+}
+
+#mapa iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#informacion{
+    background: rgba(0,0,0,.8);
+    color: white;
+    padding: 1.875rem;    
+}
+
+#footer-main{
+    background: #222;
+    color: white;
+    font-size: 1.1rem;
+    padding: 2.5rem 0;
+}
+
+@media (min-width: 100px) {
+    #programas audio{
+        width: 150px;
+    }
+ }
+
+@media (min-width: 320px) {
+    #programas audio{
+        width: 220px;
+    }
+ }
+
+ @media (min-width: 375px) {
+    #programas audio{
+        width: 270px;
+    }
+ }
+
+@media (min-width: 425px) {
+    #programas audio{
+        width: 320px;
+    }
+ }
+
+ @media (min-width: 580px) {
+    #programas audio{
+        width: 180px;
+    }
+ }
+
+ @media (min-width: 768px) {
+    #programas audio{
+        width: 270px;
+    }
+ }
+
+ @media (min-width: 1024px) {
+    #programas audio{
+        width: 370px;
+    }
+ }
+
+ @media (min-width: 1440px) {
+    #programas audio{
+        width: 420px;
+    }
+ }
+
